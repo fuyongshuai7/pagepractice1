@@ -1,0 +1,128 @@
+body{
+    background-image: url(../img/bg_pc.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0px;
+    margin: 0px;
+}
+.top{
+    height: 20%;
+}
+.logo{
+    width: 711px;
+    height: 124px;
+    background-image: url(../img/bg_bar.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 70%;
+}
+.tfblock{
+    width: 1000px;
+    height: 124px;
+    line-height: 124px;
+    text-align: right;
+    margin: auto;
+    /* margin-right: 250px; */
+
+}
+.twitterlink{
+    width: 29px;
+    height: 27px;
+    display: inline-block;
+    background-image: url(../img/twitter.png);
+    background-size: 100% 100%;
+    margin-right: 30px;
+}
+.facebooklink{
+    width: 16px;
+    height: 31px;
+    display: inline-block;
+    background-image: url(../img/facebook.png);
+    background-size: 100% 100%;
+    margin-right: 30px;
+}
+.twitterlink:hover{
+    background-image: url(../img/twitter_hover.png);
+}
+.facebooklink:hover{
+    background-image: url(../img/facebook_hover.png);
+}
+.mid{
+    width: 1000px;
+    height: 720px;
+    margin: auto;
+}
+.midspan{
+    width: 40%;
+    color: #fec44c;
+    font-size: 50px;
+}
+.mid-p{
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+.googlelink{
+    width: 350px;
+    height: 103px;
+    display: inline-block;
+    background-image: url(../img/googleplay.png);
+    /* background-size: 100% 100%; */
+}
+.mobilepng{
+    width: 60%;
+    height: 714px;
+    background-image: url(../img/mobile.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.bottom{
+    height: 219px;
+    background-image: url(../img/bg_white.png);
+    background-size: 100% 100%;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+.area{
+    width: 1000px;
+    margin: auto;
+}
+.leftlogo{
+    width: 40%;
+    height: 80px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position-x: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.bottomtext{
+    color: #fec44c;
+    font-size: 50px;
+    margin-left: 100px;
+    line-height: 80px;
+}
+.right-a{
+    width: 60%;
+    color: darkgrey;
+    text-align: right;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 20px;
+    /* vertical-align: middle; */
+    box-sizing: border-box;
+}
+.right-a a{
+    color: darkgray;
+    font-size: 20px;
+    padding: 10px;
+}
